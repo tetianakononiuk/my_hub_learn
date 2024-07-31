@@ -1,0 +1,17 @@
+   0 ls -al /home/
+   1 mkdir -p /home/user/start
+   2 ls -al /home/
+   3 ls -al /home/user/
+   4 echo "Start" > /home/user/start/1.txt
+   5 ls -al /home/user/start/
+   6 cat /home/user/start/1.txt
+   7 date >> /home/user/start/1.txt
+   8 mkdir -p /opt/task
+   9 ls -al /opt/
+  10 cp /home/user/start/1.txt /opt/task/start.txt
+  11 ls -al /opt/task/
+  12 ls -al /
+  13 ls -al / | tail -4
+  14 ls -al /|tail -4 >> /opt/task/start.txt
+  15 cat /opt/task/start.txt
+  16 history > history_2024-06-23.txt

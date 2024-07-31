@@ -1,0 +1,22 @@
+   0 ls -al
+   1 date > NewFile.txt
+   2 df -h
+   3 df -h |grep -w "/"
+   4 df -h |grep -w "/" >> NewFile.txt
+   5 cat NewFile.txt
+   6 history |tail -3 >> NewFile.txt
+   7 cat NewFile.txt
+   8 cat /etc/password
+   9 cat /etc/passwd
+  10 cat /etc/passwd | grep -w "cron"
+  11 cat /etc/passwd | grep -w "cron" >> Newfile.txt
+  12 cat /etc/group
+  13 cat /etc/group | grep root
+  14 cat /etc/group | grep root | wc -l
+  15 cat /etc/group |grep root | wc -l >> NewFile.txt
+  16 cat NewFile.txt
+  17 nano NewFile.txt
+  18 cat NewFile.txt
+  19 history > history_2024_06_23(2).txt
+  20 histiry > history_2024_06_22.txt
+  21 history > history_2024_06_22.txt

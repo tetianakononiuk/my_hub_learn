@@ -1,0 +1,81 @@
+    1  git config --global -l
+    2  git config --global user.name Tetiana
+    3  git config --global user.tetianakononiuk0705@gmail.com
+    4  git config --global user.email tetianakononiuk0705@gmail.com
+    5  git config --global -l
+    6  git clone 
+    7  git clone git@github.com:tetianakononiuk/310524-ptm.git
+    8  cd /c/Users/ICH
+    9  git config --global -l
+   10  cd 310524-ptm
+   11  git clone git@github.com:tetianakononiuk/310524-ptm.git
+   12  cd 310524-ptm/
+   13  ls -al
+   14  cd /c/Users/ICH
+   15  ls -al
+   16  git config --global -l
+   17  git clone git@github.com:tetianakononiuk/git_intro.git
+   18  ls -al
+   19  cd Test-Git/
+   20  mkdir Test-Git
+   21  ls -al
+   22  cd Test-Git
+   23  cd Test-Git/
+   24  git init
+   25  cd git_into
+   26  cd git_into/
+   27  cd git_into/
+   28  cd /Desktop/Linux/git_into
+   29  cat 
+   30  cd homework
+   31  cd git_into
+   32  git init
+   33  git add homework
+   34  git commit -m "Added photo"
+   35  git branch -M main
+   36  git remote add origin git@github.com:tetianakononiuk/git_intro.git
+   37  git push -u origin main
+   38  git remote add git@github.com:tetianakononiuk/git_intro.git
+   39  git push -u origin main
+   40  git init
+   41  git add homework
+   42  git add Homework
+   43  al -ls
+   44  ls -al
+   45  git init
+   46  git add Homework.jpg
+   47  git commit -m "Added photo"
+   48  git branch -M main
+   49  git remote add origin git@github.com:tetianakononiuk/git_intro.git
+   50  git push -u origin main
+   51  git pull
+   52  cd 310524-ptm
+   53  cd Test-Git/
+   54  cd 310524-ptm
+   55  cd ..
+   56  git clone git@github.com:tetianakononiuk/310524-ptm.git
+   57  cd 310524-ptm/
+   58  ls -al
+   59  git clone git@github.com:tetianakononiuk/Test.git
+   60  ls -al
+   61  cd Test/
+   62  ls -al
+   63  git checkout -b feature
+   64  echo "Hello GIT!" >> .gitignore
+   65  echo "Hello GIT!" >> README.md
+   66  git status
+   67  git commit -am "Edit 2 files"
+   68  git log
+   69  git push
+   70  git push --set-upstream origin feature
+   71  git log
+   72  git commit --amend -m "Edit with ammend"
+   73  git log
+   74  cat README.md
+   75  git checkout main
+   76  cat README.md
+   77  git merge feature
+   78  cat README
+   79  cat README.md
+   80  cat .gitignore
+   81  history >> history.txt
