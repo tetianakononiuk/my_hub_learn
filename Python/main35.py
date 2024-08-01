@@ -40,7 +40,6 @@ import requests
 import re
 from collections import Counter
 
-
 def find_common_words(url_list):
     common_word = Counter()
 
@@ -53,12 +52,14 @@ def find_common_words(url_list):
         except requests.RequestException as e:
             print(f'request error {url}: {e}')
 
-    return [word for word, _ in common_word.most_common()]
+    word_counts = Counter(common_word)
+    most_common_words = word_counts.most_common()
+    return most_common_words
 
 
 url_list = [
-    "https://de.wikihow.com/Die-URL-einer-Webseite-ermitteln",
-    "https://support.google.com/websearch/answer/118238?hl=de&co=GENIE.Platform%3DAndroid"
+    "https://ilibrary.ru/text/436/p.2/index.html",
+    "https://ilibrary.ru/text/69/p.4/index.html"
 ]
 common_words_list = find_common_words(url_list)
 
